@@ -1,0 +1,148 @@
+button {
+    background-color: rgb(161, 62, 62);
+    height: 30px;
+    width: 150px ;
+   
+}
+
+footer {
+    background-color: black;
+    padding: 1px;
+}
+
+footer h1 {
+
+    color: chocolate;
+    font-weight: 850;
+    text-align: center;
+    font-size: 35px;
+}
+footer p {
+
+    color:white;
+    font-weight: 850;
+    text-align: center;
+    font-size: 35px;
+}
+
+footer img{
+
+  display: flex;
+  size: 10px;
+}
+
+.footer-Contacts {
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+}
+
+.footer-Contacts img {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+/* facebook 
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+ 
+}
+
+/* Twitter 
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* Skype 
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}*/
+    
+
+body {
+    background-color: rgb(57, 189, 212);
+}
+
+.carousel{
+    float: right;
+    padding-bottom: 10px;
+    
+}
+.carousel h1 {
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+#carousel-inner img{
+    position: relative;
+}
+.carousel-inner i.left-handle, .carousel-inner i.right-handle {
+  position: absolute;
+  padding: 20px;
+  background-color: #06C;
+  color: #FFF;
+  border-radius: 3px 0 0 3px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.carousel-inner i.left-handle {
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-inner i.right-handle {
+  top: 50%;
+  right: 0;
+  transform: translate(-500%, -50%);
+}
+.myself{
+    float: right;
+     
+}
+
+#carousel-items img {
+  display: none;
+
+}
+#carousel-items img:first-of-type {
+  display: block;
+
+}
+
+#Profilepic{
+  float: right;
+
+}
+header{
+  overflow: auto;
+  padding-bottom: 5px;
+}
+center{
+  display: flex;
+  padding-left: 200px;
+
+
+}
+
+center i{
+  margin: 20px;
+  margin-top: 175px;
+
+}
+
+
